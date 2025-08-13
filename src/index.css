@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  @apply transition-transform duration-300;
+}
+
+button:hover {
+  @apply scale-105 shadow-xl;
+}
+
